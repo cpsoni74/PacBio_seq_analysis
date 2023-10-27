@@ -1,6 +1,6 @@
 # PacBio_seq_analysis
 
-# Use genbank file of the template to get the barcode and library site annotation: 
+#Use genbank file of the template to get the barcode and library site annotation: 
 1) Open genbank file in txt, note down features and locations to edit as follows
 2) Modify genbank file annotation with edit_gb_file to replace misc_feature with barcode. Simply open genbank as text and see which feature you need to edit. If it is 2nd, you will use index 1 as counting starts from 0
 example, this is the function definition def change_feature_type(template, i, strtloc, endloc, new_type):
