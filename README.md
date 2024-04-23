@@ -13,7 +13,7 @@ template is gb file, i is the index of the feature, strtloc is the start of the 
 2) for the sam file, use minimap2 to create consensus sequence. Use fasta file for template
 3) Run minimap2 after editing features: minimap2 --MD -Lax map-pb template_file.fasta fastq_data.fastq > file_to_create.sam
 
-#Specify template, sam file locations:
+#Specify template, sam file locations in the Main.py file:
 1) Input the location for genbank template and also the sam file
 2) Add bam file and bai file location (only the directory for these files has to exist, the code will generate these files)
 
